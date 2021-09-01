@@ -1,4 +1,4 @@
-# dotnetcore3.1 vs node
+# dotnetcore3.1 vs node.js14.x
 
 This post does not point out which one is better (donet), but it is more of comparison since I started working with serverless when dotnet was not supported. 
 Considering that I started working with dotnet 1.0, I found myself in the past years working with TypeScript because dotnet, in comparison, was very heavy to use and, in the end, costly in a serverless scenario.
@@ -37,8 +37,8 @@ docker run --rm --volume /your_project:/volume myimagename
 
 The first noticeable thing is the package size:
 
-Dotnetcore3.1: 559.4 kB
-Node.js 14.x:   109.1 kB
+* Dotnetcore3.1: 559.4 kB
+* Node.js14.x  : 109.1 kB
 
 It is relevant because you will reduce the time it takes to download the package significantly with a package. 
 
