@@ -47,14 +47,14 @@ It is relevant because you will reduce the time it takes to download the package
 I run it three times, and each time should list 1000 executions in the status of Running and stop them.
 The code is not optimised on purpose to have a 1:1 comparison.
 
-Language | Duration | Billed Duration | Memory Size | Max Memory Used  | Init Duration
------------- | ------------ |------------ |------------ |------------ |------------ 
-dotnetcore3.1 | 44499.27 ms | 44500 ms | 1024 MB | 139 MB | 288.77 ms
-dotnetcore3.1 | 44539.43 ms | 44540 ms | 1024 MB | 141 MB |  -
-dotnetcore3.1 | 45584.80 ms | 45585 ms | 1024 MB | 141 MB | -
-node.js 14.x | 43824.16 ms | 43825 ms | 1024 MB | 95 MB | 288.77 ms
-node.js 14.x | 41672.48 ms | 41673 ms | 1024 MB | 96 MB |  -
-node.js 14.x | 47999.03 ms | 48000 ms | 1024 MB | 98 MB | -
+Run | Language | Duration | Billed Duration | Memory Size | Max Memory Used  | Init Duration
+------------ |------------ | ------------ |------------ |------------ |------------ |------------ 
+1 | dotnetcore3.1 | 44499.27 ms | 44500 ms | 1024 MB | 139 MB | 288.77 ms
+1 | node.js 14.x | 43824.16 ms | 43825 ms | 1024 MB | 95 MB | 288.77 ms
+2 | dotnetcore3.1 | 44539.43 ms | 44540 ms | 1024 MB | 141 MB |  -
+2 | node.js 14.x | 41672.48 ms | 41673 ms | 1024 MB | 96 MB |  -
+3 | dotnetcore3.1 | 45584.80 ms | 45585 ms | 1024 MB | 141 MB | -
+3 | node.js 14.x | 47999.03 ms | 48000 ms | 1024 MB | 98 MB | -
 
 ### Operating Lambda: Performance optimization ###
 
